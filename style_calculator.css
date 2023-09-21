@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(to right,rgb(216, 115, 115),rgb(231, 231, 147));
+}
+.container{
+    width:280px;
+    height:400px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin:100px;
+}
+#output{
+    width:260px;
+    height:50px;
+    border: none;
+    border-color: none;
+    margin: 5px;
+    border-radius: 3px;
+}
+button{
+    height: 60px;
+    width:60px;
+    margin: 4px;
+}
